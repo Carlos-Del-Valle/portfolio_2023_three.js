@@ -30,6 +30,24 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import anglebottomright from "./anglebottomright.png";
+import angletopleft from "./angletopleft.png";
+import angletopright from "./angletopright.png";
+import arrowbottomdetailed from "./arrowbottomdetailed.png";
+import arrowdowndetailed from "./arrowdowndetailed.png";
+import arrow from "./arrow.png";
+import cross from "./cross.png";
+import invertedtriangle from "./invertedtriangle.png";
+import ninetybottom from "./ninetybottom.png";
+import rombo from "./rombo.png";
+import square from "./square.png";
+import triangle from "./triangle.png";
+import twocolumnsprox from "./twocolumnsprox.png";
+import twocolumns from "./twocolumns.png";
+import verticalcross from "./verticalcross.png";
+import widecolumn from "./widecolumn.png";
+import datavisualization from "./datavisualization.png";
+
 export {
   logo,
   backend,
@@ -59,4 +77,21 @@ export {
   carrent,
   jobit,
   tripguide,
+  anglebottomright,
+  angletopleft,
+  angletopright,
+  arrowbottomdetailed,
+  arrowdowndetailed,
+  arrow,
+  cross,
+  invertedtriangle,
+  ninetybottom,
+  rombo,
+  square,
+  triangle,
+  twocolumnsprox,
+  twocolumns,
+  verticalcross,
+  widecolumn,
+  datavisualization,
 };

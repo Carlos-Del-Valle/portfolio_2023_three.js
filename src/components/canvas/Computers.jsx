@@ -5,12 +5,16 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = (isMobile) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
-
+  // const computer = useGLTF("./desktop_pc/scene.gltf");
+  //const computer = useGLTF("./loomis/scene.gltf");
+  //const computer = useGLTF("./test_head_compressed/test_head_compressed.gltf");
+  //const computer = useGLTF("./test1/compressed.glb");
+  const computer = useGLTF("./test2/test222.glb");
   return (
     <mesh>
       <spotLight
-        position={[-20, 50, 10]}
+        //position={[-20, 70, 10]}
+        position={[-20, 70, 60]}
         angle={0.12}
         penumbra={1}
         intensity={1}
@@ -21,9 +25,12 @@ const Computers = (isMobile) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        //scale={isMobile ? 0.7 : 0.75}
+        scale={isMobile ? 4.0 : 4.75}
+        //position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        position={isMobile ? [0.0, 0, 0] : [0, -3.25, -1.5]}
+        //rotation={[-0.01, -0.2, -0.1]}
+        rotation={[0, 0.4, 0]}
       />
     </mesh>
   );

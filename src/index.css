@@ -14,9 +14,16 @@
 }
 
 .hash-span {
-  margin-top: -100px;
+  /* margin-top: -100px;
   padding-bottom: 100px;
+  display: block; */
+  /* margin-top: -100px; */
+  padding-bottom: 125px;
   display: block;
+}
+
+.hash-span#contact {
+  display: none;
 }
 
 .black-gradient {
@@ -34,19 +41,63 @@
 }
 
 .violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: #cc2936;
+  background: linear-gradient(-90deg, #cc2936 0%, rgba(60, 51, 80, 0) 100%);
+
   background: -webkit-linear-gradient(
-    -90deg,
-    #804dee 0%,
-    rgba(60, 51, 80, 0) 100%
-  );
+      -90deg,
+      #cc2936 0%,
+      rgba(12, 10, 9, 0) 100%
+    ),
+    -webkit-linear-gradient(-90deg, #cc2936 0%, rgba(12, 10, 9, 0) 100%);
 }
 
 .green-pink-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+
+.white-red-gradient {
+  /* background: "#F7F7F2"; */
+  /* background: linear-gradient(90.13deg, #f7f7f2 1.9%, #cc2936 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #f7f7f2 1.9%, #cc2936 97.5%); */
+
+  background: "#0C0A09";
+  background: linear-gradient(90.13deg, #0c0a09 1.9%, #cc2936 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #0c0a09 1.9%, #cc2936 97.5%);
+}
+
+.remark-text-gradient {
+  background: #cc2936; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #cc2936,
+    #f12711
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #cc2936,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.white-text-gradient {
+  background: #f7f7f2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f7f7f2,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f7f7f2,
+    #ffffff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .orange-text-gradient {
@@ -201,4 +252,58 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+}
+
+/* Custom shape : triangle */
+.custom-triangle {
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+.reversed-custom-triangle {
+  clip-path: polygon(100% 0%, 50% 100%, 0% 0%);
+}
+
+/* Custom font : AnarchEncycl */
+@font-face {
+  font-family: "AnarchEncycl";
+  src: local("AnarchEncycl"),
+    url("../src/assets/fonts/AnarchEncycl.otf") format("truetype");
+
+  font-weight: bold;
+}
+
+.anarch-font {
+  font-family: "AnarchEncycl";
+}
+
+/* Custom font : AnarchEncycl-Black */
+@font-face {
+  font-family: "AnarchEncycl-Black";
+  src: local("AnarchEncycl-Black"),
+    url("../src/assets/fonts/AnarchEncycl-Black.otf") format("truetype");
+
+  font-weight: bold;
+}
+
+.anarch-font-black {
+  font-family: "AnarchEncycl-Black";
+}
+
+/* Custom  */
+
+/*Css colour guide */
+
+/* Background - 60 */
+/* Base - 30 */
+/* Remark - 10 */
+
+.background-colour {
+  color: #0c0a09;
+}
+.base-colour {
+  color: #f7f7f2;
+}
+
+.remark-colour {
+  color: #cc2936;
 }

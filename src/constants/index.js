@@ -23,6 +23,23 @@ import {
   jobit,
   tripguide,
   threejs,
+  ninetybottom,
+  anglebottomright,
+  angletopleft,
+  angletopright,
+  arrowbottomdetailed,
+  arrowdowndetailed,
+  arrow,
+  cross,
+  invertedtriangle,
+  rombo,
+  square,
+  triangle,
+  twocolumns,
+  twocolumnsprox,
+  verticalcross,
+  widecolumn,
+  datavisualization,
 } from "../assets";
 
 export const navLinks = [
@@ -42,21 +59,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Front End Engineer",
+    icon: triangle,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "UI / UX Designer",
+    icon: cross,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Information Designer",
+    icon: datavisualization,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -212,7 +229,7 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "remark-text-gradient",
       },
     ],
     image: carrent,
@@ -233,7 +250,7 @@ const projects = [
       },
       {
         name: "scss",
-        color: "pink-text-gradient",
+        color: "remark-text-gradient",
       },
     ],
     image: jobit,
@@ -254,7 +271,7 @@ const projects = [
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "remark-text-gradient",
       },
     ],
     image: tripguide,
