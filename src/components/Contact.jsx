@@ -7,8 +7,6 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-// goH9YbwA0hoXI0Mgg
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -34,9 +32,9 @@ const Contact = () => {
         "template_rxsveb9",
         {
           from_name: form.name,
-          to_name: "Adrian",
+          to_name: "Carlos Del Valle",
           from_email: form.email,
-          to_email: "contact@jsmastery.pro",
+          to_email: "cadelvalledieguez@gmail.com",
           message: form.message,
         },
         "goH9YbwA0hoXI0Mgg"
@@ -44,7 +42,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you! I will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -74,7 +72,7 @@ const Contact = () => {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your name</span>
+            <span className="text-white font-medium mb-4">Name</span>
             <input
               type="text"
               name="name"
@@ -85,7 +83,7 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your email</span>
+            <span className="text-white font-medium mb-4">Email</span>
             <input
               type="email"
               name="email"
@@ -96,13 +94,13 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your message</span>
+            <span className="text-white font-medium mb-4">Message</span>
             <textarea
               rows="7"
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What do you want to say?"
+              placeholder="How I can help you?"
               className={`${styles.backgroundColourOne} py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium`}
             />
           </label>

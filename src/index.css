@@ -23,7 +23,11 @@
 }
 
 .hash-span#contact {
-  display: none;
+  width: 0px;
+  height: 0px;
+  padding: 0px;
+  margin: 0px;
+  display: block;
 }
 
 .black-gradient {

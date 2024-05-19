@@ -25,8 +25,10 @@ const Hero = () => {
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web applications.
+            I am a Front-End Engineer dedicated to refining
+            <br className="sm:block hidden" />
+            user interfaces and enhancing user experiences .{" "}
+            <br className="sm:block hidden" />
           </p>
         </div>
       </div>

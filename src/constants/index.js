@@ -40,6 +40,10 @@ import {
   verticalcross,
   widecolumn,
   datavisualization,
+  artsoundlogo,
+  attackforgelogo,
+  onepointlogo,
+  playsidelogo,
 } from "../assets";
 
 export const navLinks = [
@@ -59,21 +63,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Front End Engineer",
+    title: "Front End Engineering",
     icon: triangle,
   },
   {
-    title: "UI / UX Designer",
+    title: "UI / UX Design",
     icon: cross,
   },
   {
-    title: "Information Designer",
+    title: "Information Design",
     icon: datavisualization,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  {
+    title: "Technical Writing",
+    icon: twocolumns,
+  },
 ];
 
 const technologies = [
@@ -125,63 +129,106 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
+  // Icon Backgrounds Colors: Grey:#14110f | Hard-White:#F7F7F2 | white:#E6DEDD;
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Technical Writer ",
+    company_name: "Freelance",
+    icon: twocolumns,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created detailed system documentation, including architecture diagrams, data flow diagrams, and technical specifications.",
+      "Translated technical documents, user manuals, and online help systems from English to Spanish, ensuring accurate and culturally appropriate content for Spanish-speaking users.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "XR Front-End Developer",
+    company_name: "Playside - Short term contract",
+    icon: playsidelogo,
+    iconBg: "#14110f",
+    date: "Dec 2023 - April 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+      "Crafted Virtual Reality User Interfaces utilising TypeScript",
+      "Conducted thorough testing and code reviews",
+      "Collaborated closely with UX designers and UI designers",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Front-End Engineer",
+    company_name: "AttackForge - Long term contract",
+    icon: attackforgelogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sep 2022 - Oct 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engaged in the development of Angular-based web applications",
+      "Migrated an enterprise codebase from AngularJS to Angular v2",
+      "Lead the user interface and user experience development for a desktop application",
+    ],
+  },
+  {
+    title: "Front-End Developer",
+    company_name: "Onepoint AU - Short term contract",
+    icon: onepointlogo,
+    iconBg: "#E6DEDD",
+    date: "Nov 2021 - Mar 2022",
+    points: [
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed web and mobile applications using React and Electron.",
+    ],
+  },
+  {
+    title: "Website Engineer",
+    company_name: "Art Sound FM - Volunteer",
+    icon: artsoundlogo,
+    iconBg: "#14110f",
+    date: "Jul 2021 - Dec 2021",
+    points: [
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participated in e-commerce development and backend consulting",
+    ],
+  },
+  {
+    title: "Web Developer + UI / UX Designer",
+    company_name: "Freelance",
+    icon: invertedtriangle,
+    iconBg: "#E6DEDD",
+    date: "Jan 2017 - Jan 2019",
+    points: [
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+
+      "Developed and maintained multiple websites using HTML, CSS, JavaScript, and PHP.",
+
+      "Created wireframes, prototypes, and mockups using tools like Sketch, Figma, and Adobe XD to visualize and iterate design concepts.",
+
+      "Conducted user research through interviews, surveys, and usability testing to gather insights and inform design decisions.",
     ],
   },
 ];
@@ -215,9 +262,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Lorem Ipsum",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae nisi risus. Duis feugiat commodo convallis. Ut at ante elementum quam facilisis pretium. Integer.",
     tags: [
       {
         name: "react",
@@ -236,9 +283,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Lorem Ipsum",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae nisi risus. Duis feugiat commodo convallis. Ut at ante elementum quam facilisis pretium.",
     tags: [
       {
         name: "react",
@@ -257,9 +304,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Lorem Ipsum",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae nisi risus. Duis feugiat commodo convallis. Ut at ante elementum quam facilisis pretium.",
     tags: [
       {
         name: "nextjs",

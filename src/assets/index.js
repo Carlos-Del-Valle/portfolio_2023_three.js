@@ -48,6 +48,11 @@ import verticalcross from "./verticalcross.png";
 import widecolumn from "./widecolumn.png";
 import datavisualization from "./datavisualization.png";
 
+import artsoundlogo from "./artsoundlogo.png";
+import attackforgelogo from "./attackforgelogo.png";
+import onepointlogo from "./onepointlogo.png";
+import playsidelogo from "./playsidelogo.png";
+
 export {
   logo,
   backend,
@@ -94,4 +99,8 @@ export {
   verticalcross,
   widecolumn,
   datavisualization,
+  artsoundlogo,
+  attackforgelogo,
+  onepointlogo,
+  playsidelogo,
 };
