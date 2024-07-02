@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  font-size: 16px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -171,7 +175,7 @@
 
 /* canvas- styles */
 .canvas-loader {
-  font-size: 10px;
+  font-size: 0.625rem;
   width: 1em;
   height: 1em;
   border-radius: 50%;
@@ -271,7 +275,7 @@
 @font-face {
   font-family: "AnarchEncycl";
   src: local("AnarchEncycl"),
-    url("../src/assets/fonts/AnarchEncycl.otf") format("truetype");
+    url("../src/assets/fonts/AnarchEncyclw.woff2") format("truetype");
 
   font-weight: bold;
 }
@@ -284,7 +288,7 @@
 @font-face {
   font-family: "AnarchEncycl-Black";
   src: local("AnarchEncycl-Black"),
-    url("../src/assets/fonts/AnarchEncycl-Black.otf") format("truetype");
+    url("../src/assets/fonts/AnarchEncycl-Blackw.woff2") format("truetype");
 
   font-weight: bold;
 }

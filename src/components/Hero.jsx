@@ -4,9 +4,9 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto flex">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-10`}
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           {/* Circle */}
@@ -26,15 +26,15 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a Front-End Engineer dedicated to refining
-            <br className="sm:block hidden" />
-            user interfaces and enhancing user experiences .{" "}
-            <br className="sm:block hidden" />
+            <br className="sm:block hidden" /> user interfaces and enhancing
+            user experiences . <br className="sm:block hidden" />
           </p>
         </div>
       </div>
-      <ComputersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <ComputersCanvas/>
+
+      <div className="absolute xs:bottom-10 bottom-10 w-full flex justify-center items-center self-end">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-2 border-secondary flex justify-center items-start p-2">
             <motion.div
