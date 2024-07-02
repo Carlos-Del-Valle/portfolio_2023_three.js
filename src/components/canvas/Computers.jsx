@@ -68,25 +68,25 @@ const ComputersCanvas = () => {
     if ((windowWidth >= 320 && windowWidth < 375) || windowWidth < 320) {
       styles.maxWidth = "60em";
       styles.maxHeight = "10em";
-      // if (windowHeight <= 739) {
-      //   styles.display = "none";
-      // }
+      if (windowHeight <= 739) {
+        styles.display = "none";
+      }
     }
     //Mobile M
     else if (windowWidth >= 375 && windowWidth < 425) {
       styles.maxWidth = "60em";
       styles.maxHeight = "12em";
-      // if (windowHeight <= 505) {
-      //   styles.display = "none";
-      // }
+      if (windowHeight <= 505) {
+        styles.display = "none";
+      }
     }
     //Mobile L
     else if (windowWidth >= 425 && windowWidth < 768) {
       styles.maxWidth = "60em";
       styles.maxHeight = "21em";
-      // if (windowHeight <= 672) {
-      //   styles.display = "none";
-      // }
+      if (windowHeight <= 672) {
+        styles.display = "none";
+      }
     }
     //Tablet
     else if (windowWidth >= 768 && windowWidth < 1024) {
